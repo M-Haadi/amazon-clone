@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header id="top">
+      <div class="navbar">
+        <div class="logo border">
+          <img src="images/amazon_logo.png" alt="" />
+        </div>
+        <div class="deliver_box border">
+          <i class="fa-solid fa-location-dot"></i>
+          <div class="location">
+            <p>Deliver to</p>
+            <p>Pakistan</p>
+          </div>
+        </div>
+        <div class="input_box">
+          <select>
+            <option value="All">All</option>
+          </select>
+          <input type="text" placeholder="Search Amazon" />
+          <div class="search_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <div class="language_box border">
+          <img src="images/language.png" alt="" />
+          <select>
+            <option>EN</option>
+          </select>
+        </div>
+        <div class="accounts_list border">
+          <p>Hello, sign in</p>
+          <p>Accounts & Lists</p>
+        </div>
+        <div class="returns_orders border">
+          <p>Returns</p>
+          <p>& Orders</p>
+        </div>
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>Cart</span>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel_left">
+          <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+            <span>All</span>
+          </div>
+          <div class="panel_list">
+            <span> Today's Deals</span>
+            <span>Customer Service</span>
+            <span>Registry</span>
+            <span>Gift Cards</span>
+            <span>Sell</span>
+          </div>
+        </div>
+        <div class="panel_right">Shop great deals now</div>
+      </div>
+    </header>
+    <!-- ==========================================================
+    hero section
+======================================================= -->
+    <div class="hero_content">
+      <div class="hero_slider">
+        <div class="slider_btn_left">
+          <button><i class="fa-solid fa-angle-left"></i></button>
+        </div>
+        <div class="slider_btn_right">
+          <button><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+      <div class="hero_cards_container">
+        <div class="hero_card">
+          <p class="title">Gaming accessories</p>
+          <div class="items">
+            <div class="item1">
+              <img src="images/headphone.jpg" alt="" />
+              <p>Headsets</p>
+            </div>
+            <div class="item2">
+              <img src="images/keyboard.jpg" alt="" />
+              <p>Keyboards</p>
+            </div>
+            <div class="item3">
+              <img src="images/mouse.jpg" alt="" />
+              <p>Computer mice</p>
+            </div>
+            <div class="item4">
+              <img src="images/gamingchair.jpg" alt="" />
+              <p>Chairs</p>
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+        <div class="hero_card">
+          <p class="title">Shop deals in Fashion</p>
+          <div class="items">
+            <div class="item1">
+              <img src="images/fashion1.jpg" alt="" />
+              <p>Jeans under $50</p>
+            </div>
+            <div class="item2">
+              <img src="images/fashion2.jpg" alt="" />
+              <p>Tops under $25</p>
+            </div>
+            <div class="item3">
+              <img src="images/fashion3.jpg" alt="" />
+              <p>Dresses under $30</p>
+            </div>
+            <div class="item4">
+              <img src="images/fashion4.jpg" alt="" />
+              <p>Shoes under $50</p>
+            </div>
+          </div>
+          <a href="#">See all deals</a>
+        </div>
+        <div class="hero_card">
+          <p class="title">Fashion trends you like</p>
+          <div class="items">
+            <div class="item1">
+              <img src="images/fashion5.jpg" alt="" />
+              <p>Dresses</p>
+            </div>
+            <div class="item2">
+              <img src="images/fashion6.jpg" alt="" />
+              <p>Knits</p>
+            </div>
+            <div class="item3">
+              <img src="images/fashion7.jpg" alt="" />
+              <p>Jackets</p>
+            </div>
+            <div class="item4">
+              <img src="images/fashion8.jpg" alt="" />
+              <p>Jewelry</p>
+            </div>
+          </div>
+          <a href="#">Explore more</a>
+        </div>
+        <div class="hero_card signin_card">
+          <div class="signin_card_btn_div">
+            <p>
+              Sign in for the best <br />
+              experience
+            </p>
+            <button class="signin_securely_btn">Sign in securely</button>
+          </div>
+          <div class="signin_card_div"></div>
+        </div>
+        <div class="hero_card card_layout2">
+          <p class="title">Computer & Accessories</p>
+          <div class="card2_cover setbg" data-cardlayout2="1"></div>
+          <a href="#">Shop now</a>
+        </div>
+        <div class="hero_card">
+          <p class="title">Refresh your space</p>
+          <div class="items">
+            <div class="item1">
+              <img src="images/refreshspace1.jpg" alt="" />
+              <p>Dining</p>
+            </div>
+            <div class="item2">
+              <img src="images/refreshspace2.jpg" alt="" />
+              <p>Home</p>
+            </div>
+            <div class="item3">
+              <img src="images/refreshspace3.jpg" alt="" />
+              <p>Kitchen</p>
+            </div>
+            <div class="item4">
+              <img src="images/refreshspace4.jpg" alt="" />
+              <p>Health and Beauty</p>
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+        <div class="hero_card card_layout2">
+          <p class="title">Electronics</p>
+          <div class="card2_cover setbg" data-cardlayout2="2"></div>
+          <a href="#">Shop now</a>
+        </div>
+        <div class="hero_card card_layout2">
+          <p class="title">Health & Personal Care</p>
+          <div class="card2_cover setbg" data-cardlayout2="3"></div>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+      <div class="slider2_container">
+        <p>Popular Items this season</p>
+        <div class="slider2">
+          <div class="slider_btn_left2">
+            <button><i class="fa-solid fa-angle-left"></i></button>
+          </div>
+          <div class="slider2_images">
+            <img src="images/slider2_1.jpg" alt="" />
+            <img src="images/slider2_2.jpg" alt="" />
+            <img src="images/slider2_3.jpg" alt="" />
+            <img src="images/slider2_4.jpg" alt="" />
+            <img src="images/slider2_5.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_6.jpg" alt="" />
+            <img src="images/slider2_7.jpg" alt="" />
+            <img src="images/slider2_8.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_9.jpg" alt="" />
+            <img src="images/slider2_10.jpg" alt="" />
+            <img src="images/slider2_11.jpg" alt="" />
+            <img src="images/slider2_12.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_14.jpg" alt="" />
+          </div>
+          <div class="slider_btn_right2">
+            <button><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero_cards_container2">
+        <div class="hero_card card_layout2">
+          <p class="title">Deals in Tools and Home Improvement</p>
+          <div class="card2_cover setbg" data-cardlayout2="4">
+            <img src="images/tools.jpg" alt="" />
+          </div>
+          <a href="#">Shop now</a>
+        </div>
+
+        <div class="hero_card card_layout2">
+          <p class="title">Spring new arrivals</p>
+          <div class="card2_cover setbg" data-cardlayout2="5">
+            <img src="images/sprong.jpg" alt="" />
+          </div>
+          <a href="#">Shop now</a>
+        </div>
+
+        <div class="hero_card card_layout2">
+          <p class="title">Shop Pet supplies</p>
+          <div class="card2_cover setbg" data-cardlayout2="6">
+            <img src="images/pet.jpg" alt="" />
+          </div>
+          <a href="#">Shop now</a>
+        </div>
+
+        <div class="hero_card">
+          <p class="title">Gaming merchandise</p>
+          <div class="items">
+            <div class="item1">
+              <img src="images/gaming1.jpg" alt="" />
+              <p>Dining</p>
+            </div>
+            <div class="item2">
+              <img src="images/gaming2.jpg" alt="" />
+              <p>Home</p>
+            </div>
+            <div class="item3">
+              <img src="images/gaming3.jpg" alt="" />
+              <p>Kitchen</p>
+            </div>
+            <div class="item4">
+              <img src="images/gaming4.jpg" alt="" />
+            </div>
+          </div>
+          <a href="#">See more</a>
+        </div>
+      </div>
+
+
+      <div class="slider2_container">
+        <p>Popular Items this season</p>
+        <div class="slider2">
+          <div class="slider_btn_left2">
+            <button><i class="fa-solid fa-angle-left"></i></button>
+          </div>
+          <div class="slider2_images">
+            <img src="images/slider2_1.jpg" alt="" />
+            <img src="images/slider2_2.jpg" alt="" />
+            <img src="images/slider2_3.jpg" alt="" />
+            <img src="images/slider2_4.jpg" alt="" />
+            <img src="images/slider2_5.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_6.jpg" alt="" />
+            <img src="images/slider2_7.jpg" alt="" />
+            <img src="images/slider2_8.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_9.jpg" alt="" />
+            <img src="images/slider2_10.jpg" alt="" />
+            <img src="images/slider2_11.jpg" alt="" />
+            <img src="images/slider2_12.jpg" alt="" />
+            <img src="images/slider2_13.jpg" alt="" />
+            <img src="images/slider2_14.jpg" alt="" />
+          </div>
+          <div class="slider_btn_right2">
+            <button><i class="fa-solid fa-angle-right"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_signin">
+        <p class="line"></p>
+        <div class="footer_signin_content">
+          <p>See personalized recommendations</p>
+          <button class="footer_Signin_btn">Sign in</button>
+          <span>New customer?</span>
+          <span>Start here</span>
+        </div>
+        <p class="line"></p>
+      </div>
+      <div class="backTotop">
+        <a href="#top">Back to top</a>
+      </div>
+
+      <footer>
+        <div class="footer_first">
+          <div>
+            <p>Get to Know Us</p>
+            <ul>
+              <li>Careers</li>
+              <li>Blog</li>
+              <li>About Amazon</li>
+              <li>Investor Relations</li>
+              <li>Amazon Devices</li>
+              <li>Amazon Science</li>
+            </ul>
+          </div>
+          <div>
+            <p>Make Money with us</p>
+            <ul>
+              <li>Sell products on Amazon</li>
+              <li>Sell on Amazon Business</li>
+              <li>Sell apps on Amazon</li>
+              <li>Become an Affiliate</li>
+              <li>Advertise Your Products</li>
+              <li>Self-Publish with Us</li>
+              <li>Host an Amazon Hub</li>
+              <li>> See More Make Money with Us</li>
+            </ul>
+          </div>
+          <div>
+            <p>Amazon Payment Products</p>
+            <ul>
+              <li>Amazon Business Card</li>
+              <li>Shop with Points</li>
+              <li>Reload Your Balance</li>
+              <li>Amazon Currency Converter</li>
+            </ul>
+          </div>
+          <div>
+            <p>Let Us Help You</p>
+            <ul>
+              <li>Amazon and COVID- <br> 19</li>
+              <li>Your Account</li>
+              <li>Your Orders</li>
+              <li>Shiiping Rates & <br> Policies</li>
+              <li>returns & <br> Replacements</li>
+              <li>Manage Your <br> Content and Devices</li>
+              <li>Amazon Assistant</li>
+              <li>Help</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div class="footer_second">
+            <div class="amazon_logo">
+                <img src="images/amazon_logo.png" alt="amazon_logo">
+            </div>
+
+            <div class="currency_div">
+               
+                <i class="fa-solid fa-globe"></i>
+                <input type="number" placeholder="English"> 
+                <div>
+                    $ USD - U.S. Dollar
+                </div>
+                <div>
+                    <img src="images/language.png" alt="">
+                    United States
+                </div>
+                
+                
+
+            </div>
+        </div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
